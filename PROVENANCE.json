@@ -1,0 +1,73 @@
+{
+  "upstreams": [
+    {
+      "path": "upstream/v2-core",
+      "upstream": "https://github.com/Uniswap/v2-core",
+      "commit": "6a9e7c97860676e0992f22a49665760444c1cdf5",
+      "modified": false
+    },
+    {
+      "path": "upstream/v2-periphery",
+      "upstream": "https://github.com/Uniswap/v2-periphery",
+      "commit": "ed24991304291297c3b4a52818d02f46a17aa9a2",
+      "modified": false
+    },
+    {
+      "path": "upstream/v3-core",
+      "upstream": "https://github.com/Uniswap/v3-core",
+      "commit": "ed88be38ab2032d82bf10ac6f8d03aa631889d48",
+      "archiveSha256": "09086d6c1a024df544b576bc27d8431838ad5671e70626a8d356f2542cc2e27f",
+      "modified": false
+    },
+    {
+      "path": "upstream/v3-periphery",
+      "upstream": "https://github.com/Uniswap/v3-periphery",
+      "commit": "697c2474757ea89fec12a4e6db16a574fe259610",
+      "archiveSha256": "149b0457ef3947f7879c052131297497da61a082fca6c0e05fbbb09e4d136190",
+      "modified": false
+    },
+    {
+      "path": "vendor/lib-1.1.1",
+      "package": "@uniswap/lib",
+      "version": "1.1.1",
+      "sha512": "db22bbb0ba4a213f754e24b9b1ec07b4e6bb62e33c22e057565e0666fda3645cace03dac63b2b9bd987a32a0f6e533c0f7939dfb4633095aba71317620aace9a",
+      "source": "https://registry.npmjs.org/@uniswap/lib/-/lib-1.1.1.tgz",
+      "modified": false
+    },
+    {
+      "path": "vendor/lib-4.0.1-alpha",
+      "package": "@uniswap/lib",
+      "version": "4.0.1-alpha",
+      "sha512": "7fa508962c016d1b2054bc4868100d17ac34f6d62a73a63fa9776cadb1265c7c8503b20b88aac8c111577b5c8e83c337724b2056c3bd37bcae2f60dd08640a04",
+      "source": "https://registry.npmjs.org/@uniswap/lib/-/lib-4.0.1-alpha.tgz",
+      "modified": false
+    },
+    {
+      "path": "vendor/contracts-3.4.2-solc-0.7",
+      "package": "@openzeppelin/contracts",
+      "version": "3.4.2-solc-0.7",
+      "sha512": "5ba426aa09000ee15c4cbcc72fcbd5a0d06d9308ef411a58200a26eca8943682ca821cb1dc5807d06063b7c351be2815d5998c381965bc4d41cb50be6e2f16a4",
+      "source": "https://registry.npmjs.org/@openzeppelin/contracts/-/contracts-3.4.2-solc-0.7.tgz",
+      "modified": false
+    },
+    {
+      "path": "vendor/base64-sol-1.0.1",
+      "package": "base64-sol",
+      "version": "1.0.1",
+      "sha512": "95dddc08d31e5ede2e25798b6411c518cbd5a4af4ab0b54484fa454579ef49502a00129bb8d660ffe76cab736e33ec3114b6ff52b564cfb9b57225a690c7d36e",
+      "source": "https://registry.npmjs.org/base64-sol/-/base64-sol-1.0.1.tgz",
+      "modified": false
+    }
+  ],
+  "sodadexSourceCommit": "5968b8033755588961e2250345d038cf16ce6376",
+  "sodadexModificationDate": "Original modification dates are retained in each source comment",
+  "extractedOn": "2026-11-09",
+  "scope": "V2/V3 only; no V4/UniversalRouter/IGNIX application code",
+  "supplementalNotices": [
+    {
+      "path": "vendor/contracts-3.4.2-solc-0.7/LICENSE",
+      "source": "https://raw.githubusercontent.com/OpenZeppelin/openzeppelin-contracts/v3.4.2-solc-0.7/LICENSE",
+      "reason": "npm archive omits root license; restored unchanged from matching upstream tag"
+    }
+  ]
+}

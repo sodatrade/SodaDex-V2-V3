@@ -1,0 +1,17 @@
+{
+  "chainId": 196,
+  "role": "Existing SodaDEX addresses; historical record labels this stack test. No contracts deployed by this extraction.",
+  "recordSource": "https://github.com/sodatrade/SodaDex/blob/5968b8033755588961e2250345d038cf16ce6376/deployments/xlayer-test/active.json",
+  "owner": "0x6ecf746b078d46391f8C425B150153212F7C0545",
+  "wrappedNative": "0xe538905cf8410324e03A5A23C1c177a474D59b2b",
+  "contracts": {
+    "v3Factory": "0xa6109B7F4237d2aC28B8009FbD21B88cff194cFe",
+    "v3NFTDescriptor": "0x5aBE8f32072B46E67816DB5991033e06D3b000D1",
+    "v3TokenDescriptor": "0xe8738389c2027BfcD4ac0ddE764Df9F170EB9750",
+    "v3PositionManager": "0x2BeCd78E05FB33b0588e9cF61E65afeE9DC7428f",
+    "v3Quoter": "0x98F4DFBfAb6fC37e59e00d6881E779B33b23b009",
+    "v2Factory": "0x03e033a2e064ebf028f4e2423395f7611bfda5c1",
+    "v2Router": "0xd3d11c7c9ce2b02210d0bf29abd68a9830e108bf"
+  },
+  "onchainVerification": "pending"
+}

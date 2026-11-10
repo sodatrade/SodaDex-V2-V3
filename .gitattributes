@@ -1,0 +1,4 @@
+# Preserve vendored upstream line endings and exact source bytes.
+upstream/** -text
+vendor/** -text
+verification/inputs/** -text

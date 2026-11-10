@@ -1,0 +1,16 @@
+{
+  "name": "@sodadex/v2-v3-contracts",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "devDependencies": {
+    "solc-05": "npm:solc@0.5.16",
+    "solc-06": "npm:solc@0.6.6",
+    "solc-07": "npm:solc@0.7.6",
+    "ethers": "6.16.0"
+  }
+}

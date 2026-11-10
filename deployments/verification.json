@@ -1,0 +1,71 @@
+{
+  "checkedAtUTC": "2026-11-10T03:16:20.510143+00:00",
+  "mode": "read-only code/getter checks; not a full deployment bytecode audit",
+  "signedOrBroadcast": false,
+  "chains": [
+    {
+      "chainId": 196,
+      "block": 75511497,
+      "contracts": {
+        "v3Factory": {
+          "address": "0xa6109B7F4237d2aC28B8009FbD21B88cff194cFe",
+          "runtimeKeccak256": "0xaadb13b1c3c402e5fda5210af10d8016855cb28d3c345e2cf988ddf6b97798bf"
+        },
+        "v3NFTDescriptor": {
+          "address": "0x5aBE8f32072B46E67816DB5991033e06D3b000D1",
+          "runtimeKeccak256": "0x4e9a85656402f72028c929cdbef3e905dc4235ec043e8968bebd9ae0587d783a"
+        },
+        "v3TokenDescriptor": {
+          "address": "0xe8738389c2027BfcD4ac0ddE764Df9F170EB9750",
+          "runtimeKeccak256": "0xfd7c85a8da631eb4ba3f4f3f7bcaed5cda018b0a7467406d544b1e385ea26844"
+        },
+        "v3PositionManager": {
+          "address": "0x2BeCd78E05FB33b0588e9cF61E65afeE9DC7428f",
+          "runtimeKeccak256": "0x0ea505feee803b1e3194103af4cfbf3adcff8e0ed0810d8dbd86a9a3a51a01bb"
+        },
+        "v3Quoter": {
+          "address": "0x98F4DFBfAb6fC37e59e00d6881E779B33b23b009",
+          "runtimeKeccak256": "0x5f27b71776aede0ecf7d37ab673d8c25490c6837ab3153c4e2d3f9ef66c9382a"
+        },
+        "v2Factory": {
+          "address": "0x03e033a2e064ebf028f4e2423395f7611bfda5c1",
+          "runtimeKeccak256": "0xbab145d02e7005f0d84c6c1639d39b799b0ea16df99ebbdaf5a14d9da820b4e0"
+        },
+        "v2Router": {
+          "address": "0xd3d11c7c9ce2b02210d0bf29abd68a9830e108bf",
+          "runtimeKeccak256": "0x9bbbb676efef65579d1411c348e7a13d478f4bf6b6f7ec6f5f1a7686e2fe10b9"
+        }
+      },
+      "factoryRouterPositionManagerBindingsVerified": true,
+      "ownerVerified": "0x6ecf746b078d46391f8C425B150153212F7C0545"
+    },
+    {
+      "chainId": 1952,
+      "block": 45821717,
+      "contracts": {
+        "v2Factory": {
+          "address": "0x378E840010BcB4aF361cC838ad54F1eA57D76e3B",
+          "runtimeKeccak256": "0xbab145d02e7005f0d84c6c1639d39b799b0ea16df99ebbdaf5a14d9da820b4e0"
+        },
+        "v2Router": {
+          "address": "0xd7E58272181d6b56aF5B10a12f519bA4a85914e7",
+          "runtimeKeccak256": "0xefe4a2691ba1cf63757f99e047d21c0a828e0edf0f4501f905700165bae77af6"
+        },
+        "v3Factory": {
+          "address": "0x77dd4aa238eA5BBee6c5Caf64f033574b8964F31",
+          "runtimeKeccak256": "0x1deb18d85197dff983762cb212ecd568240761a7719cf1bf666189523393b8d7"
+        },
+        "v3PositionManager": {
+          "address": "0x3c898a62F15dE439E37B5dc0a2375fFE15705177",
+          "runtimeKeccak256": "0x6734e5c0fe3d85c8b6f50045cdaa813d8861aa15e1471f9e15737c676e9d8ce0"
+        },
+        "v3Quoter": {
+          "address": "0xC2C4BC3D4985160B1Ac03D27d1a9e3972b510F00",
+          "runtimeKeccak256": "0x765e99e7dc5a7914ecf0af3a0b825ad16d8dd2260b917421417ba9bc40ca024a"
+        }
+      },
+      "factoryRouterPositionManagerBindingsVerified": true,
+      "ownerVerified": "0x6ecf746b078d46391f8C425B150153212F7C0545"
+    }
+  ]
+}

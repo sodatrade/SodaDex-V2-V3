@@ -1,0 +1,13 @@
+{
+  "chainId": 1952,
+  "role": "isolated existing acceptance contracts",
+  "owner": "0x6ecf746b078d46391f8C425B150153212F7C0545",
+  "wrappedNative": "0xda5Bc8bc981d9b2F5df2b0c7E5aeD044993709FA",
+  "contracts": {
+    "v2Factory": "0x378E840010BcB4aF361cC838ad54F1eA57D76e3B",
+    "v2Router": "0xd7E58272181d6b56aF5B10a12f519bA4a85914e7",
+    "v3Factory": "0x77dd4aa238eA5BBee6c5Caf64f033574b8964F31",
+    "v3PositionManager": "0x3c898a62F15dE439E37B5dc0a2375fFE15705177",
+    "v3Quoter": "0xC2C4BC3D4985160B1Ac03D27d1a9e3972b510F00"
+  }
+}

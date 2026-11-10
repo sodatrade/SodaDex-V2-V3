@@ -1,0 +1,19 @@
+{
+  "checkedAtUTC": "2026-11-10T03:17:11.965116+00:00",
+  "buildArtifacts": 12,
+  "testsPassed": 7,
+  "testsFailed": 0,
+  "testsSkipped": 0,
+  "readableSourcesMatchStandardInputs": true,
+  "exactCreationBytecodeAndAbi": [
+    "UniswapV2Factory",
+    "UniswapV2Pair",
+    "UniswapV2Router02",
+    "UniswapV3Factory",
+    "UniswapV3Pool"
+  ],
+  "ownedAnvilChainId": 31337,
+  "externalSigningOrBroadcast": false,
+  "upstreamFullTestSuitesExecuted": false,
+  "securityAuditCompleted": false
+}
