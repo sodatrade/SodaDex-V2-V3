@@ -42,6 +42,6 @@ npm test
 
 ## 部署地址
 
-[196 现有地址](deployments/xlayer-196-existing.json) 保留 SodaDEX 原始部署记录的历史用途标签，不将旧记录中的 `test` 自动重命名成另一套生产合约。[1952 地址](deployments/xlayer-1952-existing.json) 是已存在的隔离验收栈。新建的 196 测试栈应在实际部署后另记，不能复用这些正式地址或编造尚未部署的地址。
+[196 现有地址](deployments/xlayer-196-existing.json) 保留 SodaDEX 原始部署记录的历史用途标签，不将旧记录中的 `test` 自动重命名成另一套生产合约。[1952 地址](deployments/xlayer-1952-existing.json) 是已存在的隔离验收栈。[196 独立测试地址](deployments/xlayer-196-separate-test.json) 为本轮新部署并完成隔离池验收的一套 V2/V3，不替换现有生产地址；文件附部署交易哈希。
 
 只读核验结果与时间见 `deployments/verification.json`；合约存在和 getter 绑定不等于整套生产业务已验收。本仓库没有默认广播、签名或部署命令。

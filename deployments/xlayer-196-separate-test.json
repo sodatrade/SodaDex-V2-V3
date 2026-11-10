@@ -1,0 +1,27 @@
+{
+  "chainId": 196,
+  "role": "separate-test",
+  "purpose": "Fresh isolated acceptance stack; existing production V2/V3 addresses remain unchanged",
+  "owner": "0x6ecf746b078d46391f8C425B150153212F7C0545",
+  "wrappedNative": "0xe538905cf8410324e03A5A23C1c177a474D59b2b",
+  "sourceCommit": "41b1ff2f138446c7df9af79966bfe15d04a879e5",
+  "contracts": {
+    "v2Factory": "0x144de50c04c708245a5d892116452dc15bc67f48",
+    "v2Router": "0x2d54945b0dfdb811dee0c69c7de2249663903b9e",
+    "v3Factory": "0x2fb4f10fdc4bbbada12fb8b95e6f34d4467a3d7f",
+    "v3NFTDescriptor": "0xa206443629a23fa7f4b56eb3019c2af9dec59fce",
+    "v3TokenDescriptor": "0x0aa2c65cb9549dcb3006495890e3ea66b8167215",
+    "v3PositionManager": "0x01b2ab9486757baa7f5e1d73d52c939cbce133e5",
+    "v3Quoter": "0x9a70555d66402bb55a9466167a6ce57842ca3a13"
+  },
+  "transactions": {
+    "v2Factory": "0xb8cc0541ce0111d48a995f674ef9ca16682bd093909078cabc7e2125bf27bb14",
+    "v2Router": "0xe4f7fabb35294d06f2657438a9f99cd24f58c13d3861e0e20fcee0048759ccd7",
+    "v3Factory": "0xa9311b80bed149e09f1d6e185a4b2c15b05950f349c28542586e0fa782936c48",
+    "v3NFTDescriptor": "0x11a6ee8460d0191f8eed8364ec0ae1c2c59320d1e49fd5868e87533e2151afec",
+    "v3TokenDescriptor": "0xc177de11b0f35ba500c6709d5009fd873d978d3cc4cbefbb8255a0f5e778070c",
+    "v3PositionManager": "0x3ffca0aabe39f9f9664bb4f666e92904e6826bfce4d8d9645133480821418c48",
+    "v3Quoter": "0x7e986bc56ad3455cf52bd1c9a3a33195a55d9d08793e31d361997f2cecbb45d0"
+  },
+  "onchainVerification": "verification.json"
+}

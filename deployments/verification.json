@@ -1,11 +1,43 @@
 {
-  "checkedAtUTC": "2026-11-10T03:16:20.510143+00:00",
+  "checkedAtUTC": "2026-11-10T04:52:09.953385+00:00",
   "mode": "read-only code/getter checks; not a full deployment bytecode audit",
   "signedOrBroadcast": false,
   "chains": [
     {
+      "record": "xlayer-1952-existing.json",
+      "role": "isolated existing acceptance contracts",
+      "chainId": 1952,
+      "block": 45827431,
+      "contracts": {
+        "v2Factory": {
+          "address": "0x378E840010BcB4aF361cC838ad54F1eA57D76e3B",
+          "runtimeKeccak256": "0xbab145d02e7005f0d84c6c1639d39b799b0ea16df99ebbdaf5a14d9da820b4e0"
+        },
+        "v2Router": {
+          "address": "0xd7E58272181d6b56aF5B10a12f519bA4a85914e7",
+          "runtimeKeccak256": "0xefe4a2691ba1cf63757f99e047d21c0a828e0edf0f4501f905700165bae77af6"
+        },
+        "v3Factory": {
+          "address": "0x77dd4aa238eA5BBee6c5Caf64f033574b8964F31",
+          "runtimeKeccak256": "0x1deb18d85197dff983762cb212ecd568240761a7719cf1bf666189523393b8d7"
+        },
+        "v3PositionManager": {
+          "address": "0x3c898a62F15dE439E37B5dc0a2375fFE15705177",
+          "runtimeKeccak256": "0x6734e5c0fe3d85c8b6f50045cdaa813d8861aa15e1471f9e15737c676e9d8ce0"
+        },
+        "v3Quoter": {
+          "address": "0xC2C4BC3D4985160B1Ac03D27d1a9e3972b510F00",
+          "runtimeKeccak256": "0x765e99e7dc5a7914ecf0af3a0b825ad16d8dd2260b917421417ba9bc40ca024a"
+        }
+      },
+      "factoryRouterPositionManagerBindingsVerified": true,
+      "ownerVerified": "0x6ecf746b078d46391f8C425B150153212F7C0545"
+    },
+    {
+      "record": "xlayer-196-existing.json",
+      "role": "Existing SodaDEX addresses; historical record labels this stack test. No contracts deployed by this extraction.",
       "chainId": 196,
-      "block": 75511497,
+      "block": 75517129,
       "contracts": {
         "v3Factory": {
           "address": "0xa6109B7F4237d2aC28B8009FbD21B88cff194cFe",
@@ -40,28 +72,38 @@
       "ownerVerified": "0x6ecf746b078d46391f8C425B150153212F7C0545"
     },
     {
-      "chainId": 1952,
-      "block": 45821717,
+      "record": "xlayer-196-separate-test.json",
+      "role": "separate-test",
+      "chainId": 196,
+      "block": 75517270,
       "contracts": {
         "v2Factory": {
-          "address": "0x378E840010BcB4aF361cC838ad54F1eA57D76e3B",
+          "address": "0x144de50c04c708245a5d892116452dc15bc67f48",
           "runtimeKeccak256": "0xbab145d02e7005f0d84c6c1639d39b799b0ea16df99ebbdaf5a14d9da820b4e0"
         },
         "v2Router": {
-          "address": "0xd7E58272181d6b56aF5B10a12f519bA4a85914e7",
-          "runtimeKeccak256": "0xefe4a2691ba1cf63757f99e047d21c0a828e0edf0f4501f905700165bae77af6"
+          "address": "0x2d54945b0dfdb811dee0c69c7de2249663903b9e",
+          "runtimeKeccak256": "0xfcaaf8dee51a9093989a642258731583f7c4d42f8e8504c2f772d5cdefdd56f1"
         },
         "v3Factory": {
-          "address": "0x77dd4aa238eA5BBee6c5Caf64f033574b8964F31",
-          "runtimeKeccak256": "0x1deb18d85197dff983762cb212ecd568240761a7719cf1bf666189523393b8d7"
+          "address": "0x2fb4f10fdc4bbbada12fb8b95e6f34d4467a3d7f",
+          "runtimeKeccak256": "0xf0c9b066709970353034c03eaa94dd115425c459398253ff4dc3900459cfb8ad"
+        },
+        "v3NFTDescriptor": {
+          "address": "0xa206443629a23fa7f4b56eb3019c2af9dec59fce",
+          "runtimeKeccak256": "0xb7b498f6cf362c8f07492178b7f1d38c6cb287d0c71204d82d2b685ecf7ae4b5"
+        },
+        "v3TokenDescriptor": {
+          "address": "0x0aa2c65cb9549dcb3006495890e3ea66b8167215",
+          "runtimeKeccak256": "0x8cb7e2ed3d1961f775231b1bff2b0a5417b1b976bee2cb2472d1c945e01dcc80"
         },
         "v3PositionManager": {
-          "address": "0x3c898a62F15dE439E37B5dc0a2375fFE15705177",
-          "runtimeKeccak256": "0x6734e5c0fe3d85c8b6f50045cdaa813d8861aa15e1471f9e15737c676e9d8ce0"
+          "address": "0x01b2ab9486757baa7f5e1d73d52c939cbce133e5",
+          "runtimeKeccak256": "0x584d1d74848deb0922c7ff53ade1c34722ce22a5e7dbabe85100f31587770d52"
         },
         "v3Quoter": {
-          "address": "0xC2C4BC3D4985160B1Ac03D27d1a9e3972b510F00",
-          "runtimeKeccak256": "0x765e99e7dc5a7914ecf0af3a0b825ad16d8dd2260b917421417ba9bc40ca024a"
+          "address": "0x9a70555d66402bb55a9466167a6ce57842ca3a13",
+          "runtimeKeccak256": "0x8266c0ad27af9003ea9592a20cb1edc2dc45366323c7a5fb0a187f82a39b4d7f"
         }
       },
       "factoryRouterPositionManagerBindingsVerified": true,

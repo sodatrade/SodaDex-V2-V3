@@ -8,8 +8,8 @@ def cast(*args):
  if p.returncode:raise RuntimeError(p.stderr[-400:])
  return p.stdout.strip()
 results=[]
-for chain,url in [(196,'https://rpc.ignix.bot/rpc/196'),(1952,'https://testrpc.xlayer.tech/terigon')]:
- d=json.loads((R/f'deployments/xlayer-{chain}-existing.json').read_text());c=d['contracts']
+for record in sorted((R/'deployments').glob('xlayer-*.json')):
+ d=json.loads(record.read_text());chain=d['chainId'];url='https://rpc.ignix.bot/rpc/196' if chain==196 else 'https://testrpc.xlayer.tech/terigon';c=d['contracts']
  assert int(cast('chain-id','--rpc-url',url))==chain
  block=cast('block-number','--rpc-url',url)
  def call(addr,sig):return cast('call',addr,sig,'--block',block,'--rpc-url',url).lower()
@@ -24,6 +24,6 @@ for chain,url in [(196,'https://rpc.ignix.bot/rpc/196'),(1952,'https://testrpc.x
  assert call(c['v3PositionManager'],'factory()(address)')==c['v3Factory'].lower()
  assert call(c['v3PositionManager'],'WETH9()(address)')==d['wrappedNative'].lower()
  assert call(c['v3Quoter'],'factory()(address)')==c['v3Factory'].lower()
- results.append({'chainId':chain,'block':int(block),'contracts':codes,'factoryRouterPositionManagerBindingsVerified':True,'ownerVerified':d['owner']})
+ results.append({'record':record.name,'role':d['role'],'chainId':chain,'block':int(block),'contracts':codes,'factoryRouterPositionManagerBindingsVerified':True,'ownerVerified':d['owner']})
 (R/'deployments/verification.json').write_text(json.dumps({'checkedAtUTC':datetime.datetime.now(datetime.timezone.utc).isoformat(),'mode':'read-only code/getter checks; not a full deployment bytecode audit','signedOrBroadcast':False,'chains':results},indent=2)+'\n')
-print('PASS existing 196/1952 contract code, owner and bindings; no signing or broadcast')
+print('PASS all recorded 196/1952 contract code, owner and bindings; no signing or broadcast')
